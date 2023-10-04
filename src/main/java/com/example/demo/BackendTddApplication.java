@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BackendTddApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendTddApplication.class, args);
-	}
 
+		SpringApplication.run(BackendTddApplication.class, args);
+		System.out.println("Hello World!!");
+	}
 }
